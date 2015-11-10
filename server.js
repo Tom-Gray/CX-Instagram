@@ -9,11 +9,11 @@ app.use(express.static(__dirname + '/public'));
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-//configure instagram app with cleinht-id
+//configure instagram app with cleinht-id and secret
 
 ig.use({
-	client_id: 'afe0cccafdd848cc9b08ba41d05217c2',
-	client_secret: '07f8d4cbde7741b0ad8c7de532b48cbe'
+	client_id: 'xxxx',
+	client_secret: 'xxx'
 });
 
 
